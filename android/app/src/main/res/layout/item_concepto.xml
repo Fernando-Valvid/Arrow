@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="3dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concepto #1">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tvcodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo: A1"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvconcepto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concepto: Escavación"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvunidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unidad: mts"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvcantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad: 1944.2"
+            android:gravity="center_horizontal">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tvpunitario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio unitario: 10000.0"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black2"
+    tools:context=".ui.MenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/black2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black2"
+            android:gravity="center"
+            android:text="Bienvenido"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:textSize="40dp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+
+
+
+            <Button
+                android:id="@+id/btn_contratos"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/red"
+                android:paddingLeft="50dp"
+                android:text="Contratos"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_register"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/red"
+                android:paddingLeft="50dp"
+                android:text="Registar avance"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:onClick="editProfile"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/red"
+                android:drawableStart="@drawable/ic_person"
+                android:paddingLeft="50dp"
+                android:text="Mi perfil"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_cerrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/red"
+                android:drawableStart="@drawable/ic_power_off"
+                android:paddingLeft="50dp"
+                android:text="Cerrar sesión"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

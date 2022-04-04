@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sistema Arrow</string>
+    <string name="label_login">Inicio de sesión</string>
+    <string name="label_email">Correo electrónico:</string>
+    <string name="label_password">Contraseña:</string>
+    <string name="button_login">Ingresar</string>
+    <string name="link_register">¿Aún no te has registrado?</string>
+    <string name="please_fill_login">Ingrese su datos para iniciar sesión</string>
+    <string name="error_loding_contra">Ocurrio un problema al cargar los contratos</string>
+    <string name="press_back_again">Presionar una vez más para salir</string>
+    <string name="error_login_response">Se obtuvo una respuesta inesperada en el servidor</string>
+    <string name="errror_login_response">Se obtuvo una respuesta inesperada del servidor</string>
+    <string name="error_invalid_credentials">Correo o contraseña incorrecta.</string>
+    <string name="error_empty_credentials">Por favor ingrese un correo y contraseña</string>
+    <string name="welcome_name">Bienvenido %1$s</string>
+    <string name="modified_user">Los cambios se han guardado correctamente.</string>
+    <string name="error_name">El nombre ingresado es demasiado corto</string>
+    <string name="error_vacio_concepto">El concepto seleccionado no cuenta con un avance registrado</string>
+    <string name="error_descripcion">La descripción no debe ir vacía y debe contener al menos 3 caracteres.</string>
+</resources>

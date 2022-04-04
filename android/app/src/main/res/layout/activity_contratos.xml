@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black2"
+    android:animateLayoutChanges="true"
+    tools:context=".ui.ContratosActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+        android:background="@color/base1"
+        android:paddingBottom="10dp"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="Mis contratos asignados">
+
+    </TextView>
+
+
+
+
+    <EditText
+        android:id="@+id/textBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Buscar por contrato o nombre de obra"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnBuscar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="12dp"
+        android:text="Buscar" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvContratos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/btnBuscar"
+        tools:listitem="@layout/item_contrato">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
